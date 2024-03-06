@@ -1,0 +1,121 @@
+.contenedor-menu {
+  color: #000;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.menu-presentacion {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 15rem;
+  line-height: 1.5rem;
+}
+
+.menu-presentacion > h1 {
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.menu-principal > h1 {
+  font-size: 6.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  text-align: center;
+  color: var(--amarillo);
+  margin: 2rem;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.contenedor-hamburguesa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.contenedor-hamburguesa > img {
+  width: 15rem;
+}
+.contenedor-hamburguesa > h1 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+.contenedor-hamburguesa > p {
+  text-align: center;
+  padding: 0 4rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+
+  .menu-presentacion {
+    padding: 0 10rem;
+  }
+  .menu-principal > h1 {
+    font-size: 6rem;
+  }
+  .contenedor-hamburguesa > p {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .menu-presentacion {
+    padding: 0 3rem;
+  }
+  .menu-presentacion > h1 {
+    font-size: 1.5rem;
+  }
+  .menu-principal > h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+  }
+  .contenedor-hamburguesa > p {
+    padding: 0 1rem;
+  }
+  .grid-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 90%;
+  }
+  .contenedor-hamburguesa p {
+    padding: 0 7rem;
+    text-wrap: balance;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-presentacion {
+    padding: 0 3rem;
+  }
+  .menu-presentacion > h1 {
+    font-size: 1.2rem;
+  }
+  .menu-principal > h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .contenedor-hamburguesa > p {
+    padding: 0 1rem;
+  }
+  .grid-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+  .contenedor-hamburguesa p {
+    padding: 0 3rem;
+    text-wrap: balance;
+  }
+}

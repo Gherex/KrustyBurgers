@@ -1,0 +1,75 @@
+.contenedor-promos-principal {
+  background-image: url("../images/fondo-promos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-promos-principal h1,
+.contenedor-promos-principal h1 strong {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+  font-weight: 800;
+  text-shadow: 3px 2px #000;
+}
+
+.contenedor-promos-principal h1 strong {
+  color: var(--amarillo);
+}
+
+.contenedor-promos-secundario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 2rem 0;
+}
+
+.contenedor-promos-secundario img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .contenedor-promos-principal{
+    padding: 0 5rem;
+  }
+  .contenedor-promos-principal h1,
+  .contenedor-promos-principal h1 strong {
+    text-align: center;
+  }
+  .contenedor-promos-secundario img {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .contenedor-promos-principal{
+    padding: 0 2rem;
+  }
+  .contenedor-promos-principal h1,
+  .contenedor-promos-principal h1 strong {
+    text-align: center;
+  }
+  .contenedor-promos-secundario img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 281px) {
+  .contenedor-promos-principal{
+    padding: 0 1rem;
+  }
+  .contenedor-promos-principal h1,
+  .contenedor-promos-principal h1 strong {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .contenedor-promos-secundario img {
+    width: 100%;
+  }
+}

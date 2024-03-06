@@ -1,0 +1,168 @@
+.contenedor-nav {
+  position: absolute;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-nav ul li {
+  flex-basis: 4.4rem;
+  list-style: none;
+}
+
+.texto-nav {
+  background-color: #0006;
+  border-radius: 10%;
+  padding: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+.nav-responsive {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  left: 1rem;
+}
+
+.barra {
+  width: 1.5rem;
+  height: auto;
+}
+
+.texto-nav:hover {
+  color: var(--amarillo);
+  outline: 2px solid var(--amarillo);
+  transition: 0.3s;
+}
+
+.btn-especial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--amarillo);
+  border-radius: 0;
+}
+
+.ico-rayo {
+  margin-left: 0.1rem;
+}
+
+.btn-especial:hover {
+  color: #000;
+  outline: 2px solid #000;
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+
+  .contenedor-nav{
+    width: 80%;
+  }
+  .contenedor-nav ul{
+    justify-content: space-between;
+  }
+  .contenedor-nav ul li {
+    flex-basis: 4.4rem;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+
+  .contenedor-nav{
+    width: 90%;
+  }
+
+  .texto-nav {
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+  .logo {
+    width: 5.3rem;
+    margin-top: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .contenedor-nav {
+    display: none;
+  }
+
+  .nav-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+  }
+
+  .barra {
+    height: 2rem;
+  }
+
+  .nav-responsive ul li {
+    list-style: none;
+  }
+  
+  .logo {
+    width: 4rem;
+    margin-top: 0.5rem;
+  }
+
+  .full-width {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desplegable {
+    display: none;
+  }
+
+  .desplegable.show {
+    display: block;
+    left: 1rem;
+    top: 4.5rem;
+    position: absolute;
+  }
+
+  .desplegable.show li {
+    margin: 1rem;
+  }
+
+  .texto-nav {
+    background-color: #0008;
+  }
+
+  .btn-especial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--amarillo);
+    border-radius: 0;
+  }
+
+}

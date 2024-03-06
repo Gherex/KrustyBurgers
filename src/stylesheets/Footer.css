@@ -1,0 +1,193 @@
+.contenedor-footer {
+  background-color: var(--marron);
+  color: var(--blanco);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-principal {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 3rem 0;
+}
+
+.item-ppal {
+  flex-grow: 1;
+  max-width: 25%;
+  padding: 0.5rem;
+}
+
+.logo-letras {
+  padding: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px #000;
+}
+
+.contenedor-locaciones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locacion {
+  margin-bottom: 2rem;
+}
+
+.footer-principal h1,
+.footer-principal nav ul h1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.9rem;
+}
+
+.footer-principal h2, p {
+  margin: 0;
+  font-size: 0.7rem;
+  text-wrap: balance;
+}
+
+.contenedor-links {
+  padding: 0.5rem;
+}
+
+.contenedor-links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contenedor-links li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.contenedor-footer-secundario {
+  width: 100%;
+}
+
+.footer-secundario {
+  display: flex;
+  color: #ffff00;
+  font-size: 0.7rem;
+  padding: 0.3rem 3rem;
+}
+
+.footer-secundario li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-grow: 1;
+  max-width: 25%;
+  padding: 1rem 0;
+}
+
+.footer-secundario li:last-child {
+  justify-content: flex-start;
+}
+
+.redes-sociales-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+.redes-sociales-footer a {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1150px) {
+
+  .contenedor-footer {
+    flex-direction: column;
+  }
+  .footer-principal {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .item-ppal {
+    max-width: 100%;
+  }
+  .logo-letras {
+    padding: 1rem 0;
+  }
+  .contenedor-locaciones {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+  }
+  .contenedor-links {
+    padding: 1rem 0.5rem;
+  }
+  .contenedor-links ul h1 {
+    padding-bottom: 0.8rem;
+  }
+  .footer-secundario li {
+    flex-grow: 1;
+    max-width: 25%;
+    padding: 1rem 0.5rem;
+  }
+  .footer-secundario li:last-child {
+    justify-content: flex-start;
+  }
+  .redes-sociales-footer {
+    gap: 0;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .footer-principal {
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 5rem;
+  }
+  .item-ppal {
+    max-width: 100%;
+  }
+  .logo-letras {
+    padding: 2rem 0;
+  }
+  .contenedor-locaciones {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contenedor-links {
+    padding: 1rem 0.5rem;
+  }
+  .contenedor-links ul h1 {
+    padding-bottom: 1rem;
+  }
+  .footer-secundario {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-secundario li {
+    max-width: 100%;
+    padding: 0.8rem 0.5rem;
+    text-align: center;
+  }
+  ul.redes-sociales-footer {
+    padding: 0;
+    padding-bottom: 1rem;
+  }
+  .contenedor-sumate {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
