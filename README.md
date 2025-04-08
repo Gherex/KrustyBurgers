@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🍔 Krusty Burgers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a **Krusty Burgers**!  
+Una aplicación web que simula una página para una hamburguesería ficticia. Ofrece un diseño atractivo, navegación fluida y una interfaz simple que presenta productos y secciones informativas.
 
-## Available Scripts
+## 📖 Descripción
+Este proyecto fue desarrollado en **JavaScript con React**, utilizando componentes reutilizables, rutas y diseño responsivo.  
 
-In the project directory, you can run:
+## 🛠️ Tecnologías utilizadas
+- React
+- JavaScript
+- React Router
+- HTML5 & CSS3
 
-### `npm start`
+## 🔍 Características
+- Página de inicio con presentación del local
+- Sección de productos tipo menú
+- Información adicional como contacto y ubicación
+- Navegación con rutas
+- Diseño responsivo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📷 Capturas de pantalla
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Inicio](images/inicio.png)
+![Menú de hamburguesas](images/nuestra-carta.png)
+![Contacto](images/sobre-nosotros.png)
+![Promociones](images/promos.png)
 
-### `npm test`
+## 🚀 Cómo ejecutar el proyecto
+1. Clonar este repositorio:
+   ```sh
+   git clone https://github.com/Gherex/KrustyBurgers.git
+   ```
+2. Instalar las dependencias:
+   ```sh
+   npm install
+   ```
+3. Ejecutar la aplicación:
+   ```sh
+   npm run dev
+   ```
+4. Abrí el navegador en: http://localhost:5173
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 Nota
+Este proyecto fue desarrollado con fines prácticos y de aprendizaje. No incluye funcionalidades reales de pedidos ni backend asociado.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✍️ Autor
+**Germán Lagger**  
+- [GitHub](https://github.com/Gherex)
+- [LinkedIn](https://www.linkedin.com/in/germanlagger/)
