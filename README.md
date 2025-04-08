@@ -1,6 +1,9 @@
 # 🍔 Krusty Burgers
 
-¡Bienvenido a **Krusty Burgers**!  
+¡Bienvenido a **Krusty Burgers**!
+
+👉 **[Ver la demo en producción](https://krustyburgers.netlify.app)**
+
 Una aplicación web que simula una página para una hamburguesería ficticia. Ofrece un diseño atractivo, navegación fluida y una interfaz simple que presenta productos y secciones informativas.
 
 ## 📖 Descripción
